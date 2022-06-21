@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tighty Whities</title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+        <style>
+            .push
+            {
+                font-size: bold;
+                font-size: 1em;
+                background-color: #ffaa00;
+                width: 30%;
+                padding: 10px;
+                color: black;
+                border-radius: 25px;
+            }
+            #tshirt
+            {
+                border: 30px solid #0b2a63;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                padding: 20px;
+                width: 400px;
+                background-color: lightgrey;
+            }
+            #container
+            {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                height: 100%;
+                align-items: stretch;
+            }
+            header
+            {
+                text-align: center;
+                background-color: #0b2a63;
+                color: white;
+                padding-top: 50px;
+                padding-bottom: 50px;
+             }
+             footer
+            {
+                text-align: center;
+                background-color: #0b2a63;
+                color: white;
+                padding-top: 50px;
+                padding-bottom: 50px;
+             }
+            a:link {
+                color: turquoise;
+            }
+            a:visited {
+                color: lightpink;
+            }
+            a:hover {
+                font-weight: bold;
+                color: #ffaa00;
+            }
+            body
+            {
+                font-size: 1em;
+                color: rgb(0, 0, 0);
+                background-color: lightgrey;
+            }
+        </style>
+    </head>
+    <body>
+        <header><h1>Tighty Whities</h1></header>
+
+        <div id="container">
+            <div id="tshirt">
+                <h4>Tshirt 1</h4>
+                <img src="tshirt_1.jpg" alt="tshirt_1">
+                <p>Inter Typo Graphic Style</p>
+                <p>Price: <strong>$6.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+
+            <div id="tshirt">
+                <h4>Tshirt 2</h4>
+                <img src="tshirt_2.jpg" alt="tshirt_2">
+                <p>King Gizzard</p>
+                <p>Price: <strong>$5.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+
+            <div id="tshirt">
+                <h4>Tshirt 3</h4>
+                <img src="tshirt_3.jpg" alt="tshirt_3">
+                <p>Event Crew</p>
+                <p>Price: <strong>$4.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+
+            <div id="tshirt">
+                <h4>Tshirt 4</h4>
+                <img src="tshirt_4.jpg" alt="tshirt_4">
+                <p>Born To Fly</p>
+                <p>Price: <strong>$6.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+
+            <div id="tshirt">
+                <h4>Tshirt 5</h4>
+                <img src="tshirt_5.jpg" alt="tshirt_5">
+                <p>Support Local Business</p>
+                <p>Price:  <strong>$4.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+
+            <div id="tshirt">
+                <h4>Tshirt 6</h4>
+                <img src="tshirt_6.jpg" alt="tshirt_6">
+                <p>Beard Skull</p>
+                <p>Price:  <strong>$5.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+
+            <div id="tshirt">
+                <h4>Tshirt 7</h4>
+                <img src="tshirt_7.jpg" alt="tshirt_7">
+                <p>Don't text and Drive</p>
+                <p>Price:  <strong>$3.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+            <div id="tshirt">
+                <h4>Tshirt 8</h4>
+                <img src="tshirt_8.png" alt="tshirt_8">
+                <p>Run for Boston</p>
+                <p>Price:  <strong>$5.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+            <div id="tshirt">
+                <h4>Tshirt 9</h4>
+                <img src="tshirt_9.png" alt="tshirt_9">
+                <p>Professional grandma.</p>
+                <p>Price:  <strong>$4.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+            <div id="tshirt">
+                <h4>Tshirt 10</h4>
+                <img src="tshirt_10.jpg" alt="tshirt_10">
+                <p>LFO</p>
+                <p>Price:  <strong>$3.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+            <div id="tshirt">
+                <h4>Tshirt 11</h4>
+                <img src="tshirt_11.jpg" alt="tshirt_11">
+                <p>LM5</p>
+                <p>Price:  <strong>$4.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+            <div id="tshirt">
+                <h4>Tshirt 12</h4>
+                <img src="tshirt_12.jpg" alt="tshirt_12">
+                <p>New York</p>
+                <p>Price:  <strong>$5.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+            <div id="tshirt">
+                <h4>Tshirt 13</h4>
+                <img src="tshirt_13.jpg" alt="tshirt_13">
+                <p>Black with green stripe</p>
+                <p>Price:  <strong>$4.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+            <div id="tshirt">
+                <h4>Tshirt 14</h4>
+                <img src="tshirt_14.png" alt="tshirt_14">
+                <p>Bunkerd</p>
+                <p>Price:  <strong>$6.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+            <div id="tshirt">
+                <h4>Tshirt 15</h4>
+                <img src="tshirt_15.jpg" alt="tshirt_15">
+                <p>Sleep</p>
+                <p>Price:  <strong>$4.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+            <div id="tshirt">
+                <h4>Tshirt 16</h4>
+                <img src="tshirt_16.jpg" alt="tshirt_16">
+                <p>Orange</p>
+                <p>Price:  <strong>$3.00</strong></p>
+                <button class="push">Buy Now</button>
+            </div>
+
+
+
+        </div>
+        <footer>123 Main Street Westport, CT 06880 </br>
+            (800) 500-1212 </br>
+            Copyright &copy; 2019 | Tighty Whities, LLC | All Rights Reserved | <a href="privacypolicy_tightywhities.html">Privacy Policy</a>
+        </footer>
+    </body>
+</html>
